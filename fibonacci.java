@@ -1,8 +1,6 @@
 // Programa feito por Gustavo Medeiros Brasil
 // Digite o valor que deseja, e verá a sequência correspondente a esse valor.
 
-package fibonacci;
-
 import java.util.Objects;
 import java.util.Scanner;
 
