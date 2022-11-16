@@ -1,7 +1,7 @@
 # Programa elaborado por Gustavo Medeiros Brasil para a matéria de Paradigmas de Linguagens de Programação
 # O seu objetivo é simular um ambiente de votações, com o programa recebendo e processando os dados de cada "cédula",
 # em seguida emitindo um relatório com os resultados.
-# 
+# Disponível também em: https://github.com/gusBrasil/paradgimas-ling-prog
 
 a = 0
 j = 0
