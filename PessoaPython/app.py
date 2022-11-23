@@ -1,4 +1,8 @@
 # Proj1 - App
+# Trabalho de Gustavo Medeiros Brasil para a matéria Paradigmas de Linguagens de Programação
+# Código disponível em https://github.com/gusBrasil/paradgimas-ling-prog
+
+
 import os
 from gato import Gato
 

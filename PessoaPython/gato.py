@@ -1,4 +1,7 @@
 # CLASSE Gato
+# Trabalho de Gustavo Medeiros Brasil para a matéria Paradigmas de Linguagens de Programação
+# Código disponível em https://github.com/gusBrasil/paradgimas-ling-prog
+
 class Gato:
 
 # Atributos da Classe Gato
