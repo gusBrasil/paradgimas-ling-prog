@@ -1,47 +1,47 @@
 // Projeto1 - App
-//import Pessoa
+//import Gato
 
 public class App {
-    public static void main(String[] args) throws Exception {
- 
-        // Criando o objeto Pessoa 1
-        Pessoa p1 = new Pessoa();
-        p1.nome = "Ana";
-        p1.sexo = "F";
-        p1.idade = "20";
-        p1.altura = "1,65";
+        public static void main(String[] args) throws Exception {
 
-        // Criando o objeto Pessoa 2
-        Pessoa p2 = new Pessoa();
-        p2.nome = "Flavio";
-        p2.sexo = "M";
-        p2.idade = "24";
-        p2.altura = "1,78";
+                // Criando o objeto Gato 1
+                Gato p1 = new Gato();
+                p1.nome = "Naldo";
+                p1.sexo = "M";
+                p1.idade = "2";
+                p1.peso = "7,5";
 
-        // Criando o objeto Pessoa 3
-        Pessoa p3 = new Pessoa();
-        p3.nome = "Maria";
-        p3.sexo = "F";
-        p3.idade = "22";
-        p3.altura = "1,70";
+                // Criando o objeto Gato 2
+                Gato p2 = new Gato();
+                p2.nome = "Maria Mole";
+                p2.sexo = "F";
+                p2.idade = "1";
+                p2.peso = "3";
 
-//Limpa a tela no windows, no linux e no MacOS
-        if (System.getProperty("os.name").contains("Windows"))
-        new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
-        else
-        Runtime.getRuntime().exec("clear");
+                // Criando o objeto Gato 3
+                Gato p3 = new Gato();
+                p3.nome = "Rivotril";
+                p3.sexo = "M";
+                p3.idade = "4";
+                p3.peso = "6";
 
-        // Saída de Informações
-        System.out.println("Verificando os Objetos em Ação:\n");
-        p1.exibirpessoa();
-        p1.feliz();
+                // Limpa a tela no windows, no linux e no MacOS
+                if (System.getProperty("os.name").contains("Windows"))
+                        new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
+                else
+                        Runtime.getRuntime().exec("clear");
 
-        p2.exibirpessoa();
-        p2.raiva();
+                // Saída de Informações
+                System.out.println("Verificando os Objetos em Ação:\n");
+                p1.exibirGato();
+                p1.feliz();
 
-        p3.exibirpessoa();
-        p3.doente();
-        p3.triste();
-        p3.choro();
+                p2.exibirGato();
+                p2.raiva();
+
+                p3.exibirGato();
+                p3.doente();
+                p3.triste();
+                p3.faminto();
         }
 }
